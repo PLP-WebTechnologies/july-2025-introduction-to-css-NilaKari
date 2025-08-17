@@ -1,0 +1,95 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1e5f74;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header .tagline {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+  background-color: #133b5c;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Card Sections (Box Model in action) */
+.card {
+  background-color: white;
+  margin: 20px auto;   /* Outside space (margin) */
+  padding: 20px;       /* Inside space (padding) */
+  border: 2px solid #ddd; /* Border around the element */
+  border-radius: 5px;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Highlighted Card */
+.highlight {
+  border: 2px solid #1e5f74;
+  background-color: #eaf6f6;
+}
+
+/* Button */
+.book-btn {
+  background-color: #1e5f74;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #133b5c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #1e5f74;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Box Model Demonstration */
+.demo .box {
+  background-color: #f8d49d;
+  padding: 20px;    /* Inside space */
+  border: 5px solid #e07a5f; /* Border */
+  margin: 15px;     /* Outside space */
+  text-align: center;
+}
